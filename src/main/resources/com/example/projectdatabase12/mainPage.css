@@ -1,0 +1,36 @@
+* {
+    -fx-primary : #2A2E37;
+    -fx-secondary : #3A3F48;
+    -fx-primarytext : white;
+    -fx-blue: #1976D2;
+    -fx-red: #FF0000;
+    -fx-color-1:#1976D2;
+}
+.button {
+    -fx-color-one: #8FC9FF;
+    -fx-color-two: #8FC9FF;
+    -fx-color-three: #8FC9FF;
+    -fx-text-fill: #325176;
+    -fx-background-radius: 20;
+    -fx-font-size: 14px;
+    -fx-font-family: "Uni Sans Heavy CAPS";
+
+    -fx-background-color:
+            linear-gradient(#8FC9FF, -fx-color-one),
+            linear-gradient(#8FC9FF 0.0%, -fx-color-two 20.0%, -fx-color-one 100.0%),
+            linear-gradient(#8FC9FF 0.0%, -fx-color-three 50.0%);
+    -fx-background-radius: 8.0, 7.0, 6.0;
+    -fx-background-insets: 0.0, 1.0, 2.0;
+    -fx-effect: dropshadow( three-pass-box, rgba(0.0, 0.0, 0.0, 0.6), 5.0, 0.0, 0.0, 1.0);
+}
+.button:hover {
+    -fx-color-one: #6b707c;
+    -fx-color-two: #747f93;
+    -fx-color-three: #8cb8d0;
+}
+
+.button:pressed {
+    -fx-color-one: #3f6bb7;
+    -fx-color-two: #326294;
+    -fx-color-three: #21466e;
+}
